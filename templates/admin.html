@@ -1,0 +1,16 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+    <script src="{% static 'js/admin.js' %}"></script>
+    <title>Document</title>
+</head>
+<div class="popup">
+    <img src="http://dannypaton.com/codepen/close_button.svg" class="close_button" alt="A button to close the popup.">
+    <img src="http://dannypaton.com/codepen/popup_image.jpg" class="image" alt="The picture that pops up.">
+  </div>
+  <div class="button"><a href="{% url 'admin:index' %}">Go to Admin</div>
+</html>

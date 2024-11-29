@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>employee page</title>
+    <link rel="stylesheet" href="{% static 'css/employee.css' %}">
+    <script src="{% static 'js/employee.js' %}"></script>
+</head>
+<body>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oswald">
+
+<h1>ORMS Employee Account</h1>
+
+<div class="row">
+  
+ <image height="210" width="210" margin-left="100px"src="http://i68.tinypic.com/anlydu.jpg"> 
+  
+<div class = "card" id ="picline">
+ <p1>User Status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###### #### #####</p1> 
+ <p1>Full Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###### #### #####</p1>
+ <p1>ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###### #### #####</p1>
+<p1>Department:&nbsp;&nbsp;&nbsp; ###### #### #####</p1>
+<p1>D.O.B:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###### #### #####</p1>  
+ 
+</div>
+   
+</div>   
+ 
+<a id="emptyspan" > </a>
+ <a class = "btn btn-success " id = "write">Send Request</a>
+<a class = "btn btn-outline-success ">View Requests</a> 
+<a class = "btn btn-danger ">Cancel Requests</a>  
+<br/> 
+  
+<div id = 'req'> 
+</div>  
+ 
+<br/><br/>  
+  
+<a class = "btn btn-danger btn-left ">Logout</a> 
+</body>
+</html>

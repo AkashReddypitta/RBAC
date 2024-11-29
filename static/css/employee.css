@@ -1,0 +1,57 @@
+.row {
+    width: 1500px ;
+    margin-left: 20px ;
+    margin-bottom: 10px ;
+  }
+  
+  
+  #picline {
+    width:900px ;
+    height: 210px ;
+    margin-left: 15px;
+    background-color: #F4F6F6;
+  }
+  
+  p1 {
+    padding: 8px;
+    font-family: "Oswald" ;
+  }
+  
+  h1 {
+    padding: 15px ;
+    font-family: "Oswald" ;
+    font-size: 30px ;
+  }
+  
+  .btn {
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 9px;
+    width: 288px;
+    font-family: "Oswald" ;
+  }
+  
+  input {
+    margin-left: 15px;
+  }
+  
+  #req {
+    width: 900px;
+    margin-left: 230px;
+  }
+  
+  .form-control {
+   margin-bottom: 15px;
+  }
+  
+  #send {
+    margin-left: 707px;
+  }
+  
+  #emptyspan {
+  margin-left: 230px;
+  }
+  
+  .btn-left {
+    width: 210px;
+  }
